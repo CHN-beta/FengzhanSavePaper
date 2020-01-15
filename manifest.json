@@ -1,0 +1,12 @@
+{
+    "name": "凤展省纸",
+    "version": "1.0",
+    "description": "去掉凤展打印单据上面的多余空白，节省纸张，保护环境。",
+    "content_scripts": [
+        {
+            "matches": ["http://www.fengzhansy.com/scmv8/inc/order3.jsp*"],
+            "js": ["/content_script.js"]
+        }
+    ],
+    "manifest_version": 2
+}
